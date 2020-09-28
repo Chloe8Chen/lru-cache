@@ -1,0 +1,27 @@
+{
+  "name": "lru-cache",
+  "version": "1.0.0",
+  "description": "This is a project to create a LRU (Least Recenly Used) Cache",
+  "main": "LruCache.js",
+  "scripts": {
+    "test": "mocha LruCache.test.js",
+    "coverage": "nyc npm run test"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chloe8Chen/lru-cache.git"
+  },
+  "author": "chloe chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chloe8Chen/lru-cache/issues"
+  },
+  "homepage": "https://github.com/Chloe8Chen/lru-cache#readme",
+  "dependencies": {
+    "mocha": "^8.1.3",
+    "should": "^13.2.3"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
