@@ -1,5 +1,6 @@
 const LruCache = require('./LruCache')
 require('should')
+
 describe('LruCache ', function () {
   let lruCache
   beforeEach(function () {
